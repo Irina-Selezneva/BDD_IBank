@@ -21,10 +21,12 @@ public class DashboardPage {
     public DashboardPage() {
         heading.shouldBe(visible);
     }
+
     public int getDashboardPage(DataHelper.InfoCard infoCard) {
         var text = cards.findBy(Condition.text(infoCard.getCardNumber().substring(12, 16))).getText();
         return extractBalance(text);
     }
+
     public TransferPage selectCardToTransfer(DataHelper.InfoCard infoCard) {
 
         cards.findBy(attribute("data-test-id", infoCard.getCardId())).$("button").click();

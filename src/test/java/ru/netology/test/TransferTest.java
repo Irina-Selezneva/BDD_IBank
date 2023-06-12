@@ -21,6 +21,7 @@ public class TransferTest {
         var verificationCode = getVerificationCode(authInfo);
         dashboardPage = verificationPage.validVerify(verificationCode);
     }
+
     @Test
     void shouldTransferFromFirstToSecond() {
         var firstCardInfo = getFirstInfoCard();
@@ -39,8 +40,7 @@ public class TransferTest {
     }
 
     @Test
-
-void shouldTransferFromSecondToFirst() {
+    void shouldTransferFromSecondToFirst() {
 
         var firstCardInfo = getSecondInfoCard();
         var secondCardInfo = getFirstInfoCard();
@@ -58,7 +58,6 @@ void shouldTransferFromSecondToFirst() {
     }
 
     @Test
-
     void shouldNotTransferSumMoreThanValidAmount() {
 
         var firstCardInfo = getFirstInfoCard();
@@ -67,12 +66,12 @@ void shouldTransferFromSecondToFirst() {
         var secondCardBalance = dashboardPage.getDashboardPage(secondCardInfo);
         var amount = generateInvalidAmount(secondCardBalance);
         var transferPage = dashboardPage.selectCardToTransfer(firstCardInfo);
-        transferPage.makeTransfer(String.valueOf(amount),secondCardInfo);
+        transferPage.makeTransfer(String.valueOf(amount), secondCardInfo);
         transferPage.findErrorMessage("Недостаточно средств на карте списания");
         var actualBalanceFirstCard = dashboardPage.getDashboardPage(firstCardInfo);
         var actualBalanceSecondCard = dashboardPage.getDashboardPage(secondCardInfo);
-        assertEquals(firstCardBalance,actualBalanceFirstCard);
+        assertEquals(firstCardBalance, actualBalanceFirstCard);
         assertEquals(secondCardBalance, actualBalanceSecondCard);
     }
-    }
+}
 

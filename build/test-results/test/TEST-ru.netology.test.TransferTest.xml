@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.test.TransferTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-06-10T16:18:50" hostname="LAPTOP-0DRRPIHJ" time="24.798">
+<testsuite name="ru.netology.test.TransferTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-06-11T14:23:36" hostname="LAPTOP-0DRRPIHJ" time="26.937">
   <properties/>
-  <testcase name="shouldNotTransferSumMoreThanValidAmount()" classname="ru.netology.test.TransferTest" time="24.798">
-    <failure message="Element not found {[data-test-id=error-message]}&#13;&#10;Expected: exact text &quot;Недостаточно средств на карте списания&quot;&#13;&#10;Screenshot: file:/C:/Users/irina/BDD_IBank/build/reports/tests/1686413955384.0.png&#13;&#10;Page source: file:/C:/Users/irina/BDD_IBank/build/reports/tests/1686413955384.0.html&#13;&#10;Timeout: 15 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[data-test-id=error-message]&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[data-test-id=error-message]}
+  <testcase name="shouldNotTransferSumMoreThanValidAmount()" classname="ru.netology.test.TransferTest" time="26.937">
+    <failure message="Element not found {[data-test-id=error-message]}&#13;&#10;Expected: exact text &quot;Недостаточно средств на карте списания&quot;&#13;&#10;Screenshot: file:/C:/Users/irina/BDD_IBank/build/reports/tests/1686493443208.0.png&#13;&#10;Page source: file:/C:/Users/irina/BDD_IBank/build/reports/tests/1686493443208.0.html&#13;&#10;Timeout: 15 s.&#13;&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[data-test-id=error-message]&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {[data-test-id=error-message]}
 Expected: exact text &quot;Недостаточно средств на карте списания&quot;
-Screenshot: file:/C:/Users/irina/BDD_IBank/build/reports/tests/1686413955384.0.png
-Page source: file:/C:/Users/irina/BDD_IBank/build/reports/tests/1686413955384.0.html
+Screenshot: file:/C:/Users/irina/BDD_IBank/build/reports/tests/1686493443208.0.png
+Page source: file:/C:/Users/irina/BDD_IBank/build/reports/tests/1686493443208.0.html
 Timeout: 15 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[data-test-id=error-message]&quot;}
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:88)
@@ -112,10 +112,10 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1096b66a12a5c25578c738d05490cdcb, findElement {using=css selector, value=[data-test-id=error-message]}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.129, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\0A5C~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57306}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57306/devtoo..., se:cdpVersion: 113.0.5672.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1096b66a12a5c25578c738d05490cdcb
-	at jdk.internal.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
+Command: [a9c3289c777d15edafd19e2089a4ffd6, findElement {using=css selector, value=[data-test-id=error-message]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 113.0.5672.129, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\0A5C~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54978}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54978/devtoo..., se:cdpVersion: 113.0.5672.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a9c3289c777d15edafd19e2089a4ffd6
+	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 	at java.base@11.0.17/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@11.0.17/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -139,23 +139,23 @@ Session ID: 1096b66a12a5c25578c738d05490cdcb
   </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\irina\BDD_IBank\build\downloads\1686413931099_12204_1
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\irina\BDD_IBank\build\downloads\1686493416765_7088_1
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 113.0.5672.63 (resolved driver for Chrome 113)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\пр\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
-Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 46855
+Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 5794
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
-июн. 10, 2023 7:18:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+июн. 11, 2023 5:23:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 113, so returning the closest version found: 110
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=113.0.5672.129 Platform=WINDOWS
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.12.3
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.8.1 build revision: 8ebccac989
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (1096b66a12a5c25578c738d05490cdcb)
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on WINDOWS (1096b66a12a5c25578c738d05490cdcb),proxy=null,downloadsFolder=C:\Users\irina\BDD_IBank\build\downloads\1686413931099_12204_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (a9c3289c777d15edafd19e2089a4ffd6)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on WINDOWS (a9c3289c777d15edafd19e2089a4ffd6),proxy=null,downloadsFolder=C:\Users\irina\BDD_IBank\build\downloads\1686493416765_7088_1] in 1 [size=1]
 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
 ]]></system-err>
 </testsuite>
